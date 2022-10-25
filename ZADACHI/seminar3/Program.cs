@@ -49,3 +49,22 @@ double z2 = Convert.ToDouble(Console.ReadLine());
 DistanceIn3D(x1,y1,z1,x2,y2,z2);
 */
 
+/*
+//Напишите программу, которая принимает на вход число (N) и выдаёт таблицу кубов чисел от 1 до N.
+void QuadNumb (int N)
+{
+    double quad = 0;
+    int i = 0;
+    while (i < N)
+    {
+        i++;
+        quad = Math.Pow(i,2);
+        Console.WriteLine(quad);
+
+
+    }
+
+}
+int num = Convert.ToInt32(Console.ReadLine());
+QuadNumb(num);
+*/
